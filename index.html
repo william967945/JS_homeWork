@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>109306019劉承翰_JS_計概作業</title>
+	
+	<script type="text/javascript">
+	function gameStart(){
+		
+		
+		for(var i = 1;value1!=number();i++){
+		var input1 = window.prompt("Enter a number");
+		var value1 = parseFloat(input1);
+
+	
+		document.writeln(
+			"<p>Times:"+i+
+			"<p>Your number: "+value1+"</p>"+
+			"The Answer is:"+number());
+
+		if ( value1== number()) {
+			document.writeln(
+			"<p>Times:"+i+
+			"<p>Your number: "+value1+"</p>"+
+			"The Answer is:"+value1);
+			alert("Answer corrected!");
+			break;
+		}else{
+			alert("Answer incorrected!");
+
+		}
+		}
+		
+
+	
+
+
+
+}
+	
+
+	function number(){
+		var value;
+			value = Math.floor(Math.random()*10+1);
+			return value;	
+			}
+	
+		
+
+
+	</script>
+
+</head>
+<body>
+	<input type="button" name="" value="START" onclick="gameStart()">
+
+
+
+
+
+
+
+</body>
+</html>
